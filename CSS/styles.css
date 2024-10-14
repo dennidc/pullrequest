@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: helvetica;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+.ancho{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.principal{
+    background-color: #b8b8b8  ;
+}
+
+.logo{
+    width: 20%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding: 20px;
+}
+
+.menu ul li{
+    border: 1px #ccc solid;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.textos{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.ninios{
+    width: 50%;
+    height: auto;
+    border: 1px green solid;
+    border-radius: 10px;
+}
+
+.ninios img{
+    width: 100%;
+    height: auto;
+}
+
+.boton a{
+    text-decoration: none;
+    color: white;
+}
+
+.boton{
+    padding: 10px 20px;
+    background-color: blue;
+    width: 13%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
+footer{
+    padding-top: 0;
+    background-color: blue;
+    width: auto;
+    height: 50px;
+}
+
+#icomenu{
+    display: none;
+}
+

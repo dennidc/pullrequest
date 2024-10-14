@@ -1,0 +1,53 @@
+@media screen and (max-width: 768px){
+    .logo{
+        width: 30%;
+        margin-bottom: 10px;
+        margin: 0;
+    }
+    .principal {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .menu ul{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #icomenu{
+        display: block;
+    }
+
+    .textos{
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .ninios{
+        width: 100%;
+    }
+
+    .contenido{
+        flex-direction: column-reverse;
+        padding: 10px   ;
+    }
+
+    .menu ul{
+        padding: 0;
+    }
+
+    .menu ul li{
+        width: 100%;
+        border-radius: 0;
+        border: 1px #ccc solid;
+    }
+
+
+}

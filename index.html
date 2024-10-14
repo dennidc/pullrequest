@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/ipad.css">
+    <script src="https://kit.fontawesome.com/2ebd543e82.js" crossorigin="anonymous"></script>
+    <title>Clase lunes 14</title>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+</head>
+<body>
+
+    <header class="ancho">
+        <section class="principal">
+            <figure class="logo">
+                <img src="CSS/imagenes/pullrequest-logo.svg" alt="Texto descriptivo">
+            </figure>
+            <div  class="burguer">
+                <i id="iconomenu" class="fa-solid fa-bars"></i>
+            </div>
+        </section>
+
+        <nav id="cajamenu" class=" menu">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Empezar</a></li>
+                <li><a href="#">Servicio</a></li>
+                <li><a href="#">Clientes</a></li>
+                <li><a href="#">Ubicación</a></li>
+                <li><a href="#">Contactanos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contenido ancho">
+
+        <div class="textos">
+            <h1>Creacion de páginas web</h1>
+            <h2>Curso básico de HTML5 Y CSS3</h2>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla voluptatem sequi aliquam porro iure molestias nam dolorem nemo fuga amet dolore, magnam, rerum quos officiis rem blanditiis illum perferendis aspernatur.</p>
+            <br>
+            <div class="boton">
+                <a href="#">Ver</a>
+            </div>
+        </div>
+
+        <div class="ninios">
+            <figure>
+                <img src="CSS/imagenes/foto_pullrequest.svg" alt="Texto descriptivo">
+            </figure>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>FRONTTEND</p>
+    </footer>
+<!-- FUNCIONES -->
+
+<script>
+    $("#iconomenu").click(function(){
+        $("#cajamenu").slideToggle();
+    });
+</script>
+
+</body>
+</html>
