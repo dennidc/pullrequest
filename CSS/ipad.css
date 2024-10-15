@@ -20,8 +20,9 @@
         flex-direction: column;
         justify-content: space-around;
     }
-    #icomenu{
+    #iconomenu{
         display: block;
+        cursor: pointer;
     }
 
     .textos{
